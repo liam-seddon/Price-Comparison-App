@@ -11,12 +11,23 @@
 
 <form action="Register_Action.php" method ="post">
 <div id="LogInHead">
-	<h1><u> Log In </u> </h1>
+	<h1><u> Register </u> </h1>
 </div>
 
 <div id="LogInCon">
-		<label for "UserName"><b>E-mail:</b></label>
-		<input type="text" placeholder="Enter Username" name="UserName" required>
+
+    <label for "FullName"><b>Full Name:</b></label>
+    <input type="text" placeholder="Enter Full Name Here" name="Fullname" required>
+
+    <br></br>
+
+    <label for "DOB"><b>Date Of Birth:</b></label>
+    <input type="text" placeholder="Enter Date Of Birth Here" name="dob" required>
+
+    <br></br>
+
+    <label for "E-mail"><b>E-mail:</b></label>
+		<input type="text" placeholder="Enter E-mail" name="UserName" required>
 
 		<br>
 		</br>
@@ -26,6 +37,12 @@
 
 		<br>
 		</br>
+
+    <label for "RePasswrd"><b>Confirm Password:</b></label>
+    <input type="text" placeholder="ReEnter Password" name="RePasswrd" required>
+
+    <br>
+    </br>
 
     <label>
 		<input type ="Checkbox" checked="unchecked" name="remember"> Remember Me

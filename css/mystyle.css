@@ -35,3 +35,6 @@ LogInImg{
 	width: 40%;
 	border-radius: 50%;
 }
+.LogInForm{
+	padding: 16px;
+}

@@ -22,7 +22,6 @@
 	width:100%;
 }
 
-button:hover{
+#button:hover{
 	opacity:0.8px;
 }
-	

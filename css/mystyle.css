@@ -25,3 +25,8 @@
 #button:hover{
 	opacity:0.8px;
 }
+
+#Img_Container{
+	text-align: center;
+	margin: 24px 0 12px 0;
+}

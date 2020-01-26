@@ -4,7 +4,7 @@ form{
 	width: 50%;
 }
 
-.LogInHead{
+.LogInHead, .RegisterHead{
 	text-align: left;
 }
 
@@ -41,6 +41,6 @@ LogInImg{
 	border-radius: 50%;
 }
 
-.LogInCon{
+.LogInCon, .RegisterCon{
 	padding: 16px;
 }

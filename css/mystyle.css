@@ -4,6 +4,10 @@ form{
 	width: 50%;
 }
 
+LogInHead{
+	text-align: left;
+}
+
 input [type=text], input [type=password]{
 	width: 50%;
 	padding: 12px 12px;

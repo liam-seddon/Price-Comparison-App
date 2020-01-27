@@ -1,3 +1,6 @@
+
+/* CSS for login and register web pages */
+/* -------------------------------------------------------------------------------- */
 form{
 	border: 10px solid #f1f1f1;
 	text-align: center;
@@ -53,3 +56,5 @@ LogInImg{
 	padding: 16px;
 	text-align: center;
 }
+/* -------------------------------------------------------------------------------- */
+/* CSS FOR SHOPPING AREA PAGE */

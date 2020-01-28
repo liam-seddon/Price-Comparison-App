@@ -6,4 +6,3 @@ if(x.type === "password"){
   x.type ="password";
 }
 }
-}

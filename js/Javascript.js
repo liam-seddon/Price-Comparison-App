@@ -1,4 +1,4 @@
-function ShowPassword(){
+function ShowPassword() {
   var x = document.getElementbyId('userpasswd');
 if(x.type === "password"){
   x.type = "text";

@@ -59,24 +59,30 @@ LogInImg{
 /* -------------------------------------------------------------------------------- */
 /* CSS FOR SHOPPING AREA PAGE */
 
-Row1{
-
-}
-
-Row2{
-
-}
-
-Row3{
-
-}
-
-Row4{
-
-}
-
-Row5{
-
-}
 
 /*------------------------------------------------------------------------------*/
+
+/*CSS FOR STICKY NAV BAR */
+
+navbar{
+	overflow: hidden;
+	background-color: #333;
+}
+
+navbar a{
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+}
+.sticky{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.sticky + .Body{
+	padding-top: 60px;
+}

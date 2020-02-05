@@ -64,12 +64,12 @@ LogInImg{
 
 /*CSS FOR STICKY NAV BAR */
 
-.navbar{
+#navbar{
 	overflow: hidden;
 	background-color: #333;
 }
 
-.navbar a{
+#navbar a{
 	float: left;
 	display: block;
 	color: #f2f2f2;

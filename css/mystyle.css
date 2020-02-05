@@ -77,6 +77,19 @@ LogInImg{
 	padding: 14px;
 	text-decoration: none;
 }
+
+#navbar a:hover{
+	background-color: #ddd;
+	color: black;
+
+}
+
+#navbar a.active{
+	background-color: #4CAF50;
+	color: white;
+}
+
+
 .sticky{
 	position: fixed;
 	top: 0;

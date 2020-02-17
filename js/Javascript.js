@@ -27,8 +27,8 @@ function]= Mynavbar(){
 }
 
 
-$(document).ready(function(){
-  $('.method').on('click', function(){
+$(document).ready(Myfunction(){
+  $('.method').on('click', Myfunction(){
     $('.method').removeClass('blue-border');
     $(this).addClass('blue-border');
   });

@@ -107,9 +107,7 @@ LogInImg{
 	box-sizing: border-box;
 }
 
-html,
-
-body{
+html,body{
 	font-family: 'Montserrat' , sans-serif;
 	display: flex;
 	width: 100%;
@@ -128,7 +126,7 @@ body{
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
 }
 
-.panel-division{
+.panel-body{
 	padding: 45px 80px 0;
 	flex:1;
 }
@@ -170,13 +168,13 @@ body{
 	background-color: #fefefe;
 }
 
-.Step::before{
+.Step:before{
 	color: #2e2e2e;
 	position: absolute;
 	top: 40px;
 }
 
-.Step:last-child::after{
+.Step:last-child:after{
 	content: none;
 }
 
@@ -184,11 +182,11 @@ body{
 	background-color: #f62f53;
 }
 
-.Step.Active::after{
+.Step.Active:after{
 	background-color: #f62f53;
 }
 
-.Step.Active::before{
+.Step.Active:before{
 	color: #f62f53;
 }
 
@@ -196,18 +194,28 @@ body{
 	background-color: #f62f53;
 }
 
-.Step.Active + .Step::before{
+.Step.Active + .Step:before{
 	color: #f62f53;
 }
 
-.Step:nth-child(1)::before{
+.Step:nth-child(1):before{
 	right: -40px;
-	content: 'Payment';
+	content: 'Delivery';
 }
 
-.Step:nth-child(2)::before{
+.Step:nth-child(2):before{
 	right: 0;
-	content: 'Finish' ;
+	content: 'Confirmation' ;
+}
+
+.Step:nth-child(3):before{
+		right: -40px;
+		content: 'Payment';
+	}
+
+.Step:nth-child(4):before{
+		right: 0;
+		content: 'Finish' ;
 }
 
 .payment-Methods{
@@ -216,7 +224,7 @@ body{
 	justify-content: space-between;
 }
 
-.method{
+.Methods{
 	display: flex;
 	flex-direction: column;
 	width: 382px;
@@ -308,7 +316,7 @@ input[type="password"]:focus{
 	align-items: center;
 }
 
-.btn{
+.bttn{
 	font-size: 16px;
 	width: 163px;
 	height:48px;
@@ -329,11 +337,11 @@ input[type="password"]:focus{
 	background: #f62f5e
 }
 
-.btn:focus{
+.bttn:focus{
 	outline: none;
 }
 
-.btn:hover{
+.bttn:hover{
 	transform: scale(1:1);
 }
 

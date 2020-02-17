@@ -201,20 +201,11 @@ body{
 }
 
 .Step:nth-child(1)::before{
-	content: delivery;
-}
-
-.Step:nth-child(2)::before{
-	right: -40px;
-	content: 'Confirmation' ;
-}
-
-.Step:nth-child(3)::before{
 	right: -40px;
 	content: 'Payment';
 }
 
-.Step:nth-child(4)::before{
+.Step:nth-child(2)::before{
 	right: 0;
 	content: 'Finish' ;
 }
@@ -317,7 +308,7 @@ input[type="password"]:focus{
 	align-items: center;
 }
 
-.bttn{
+.btn{
 	font-size: 16px;
 	width: 163px;
 	height:48px;
@@ -338,11 +329,11 @@ input[type="password"]:focus{
 	background: #f62f5e
 }
 
-.bttn:focus{
+.btn:focus{
 	outline: none;
 }
 
-.bttn:hover{
+.btn:hover{
 	transform: scale(1:1);
 }
 

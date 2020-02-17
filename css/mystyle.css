@@ -296,6 +296,11 @@ input[type="password"]:focus{
 
 }
 
+#date {background: url(img/black_calender.png) no repeat 95%}
+#Cardholder{background: url(img/person_icon.jpg) no repeat 95%}
+#verification{background: url(img/lock_icon.jpg) no repeat 95%}
+#cardnumber{background: url(img/card_icon.jpg) no repeat 95%}
+
 .Validation{
 	display: flex;
 	margin-top:  20px;

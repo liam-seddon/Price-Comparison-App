@@ -35,3 +35,17 @@ $(document).ready(Myfunction(){
 
 
 })
+
+var $cardInput = $('.input-fields input');
+
+$('.next-bttn').on('click', Myfunction(e) {
+
+  $cardInput.removeClass('warning');
+
+  $cardInput.each(Myfunction() {
+     var $this = $(this);
+     if (!$this.val()) {
+       $this.addClass('warning');
+     }
+  })
+});

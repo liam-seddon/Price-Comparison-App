@@ -246,7 +246,7 @@ body{
 	align-items: center;
 }
 
-.inputs{
+.radio-inputs{
 	margin-top: 20px;
 }
 
@@ -344,4 +344,12 @@ input[type="password"]:focus{
 
 .bttn:hover{
 	transform: scale(1:1);
+}
+
+.blue-border{
+	border: 1px rgba(110, 178, 251);
+}
+
+.warning{
+	border-color: #f62f5e;
 }

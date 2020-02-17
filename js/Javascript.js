@@ -25,3 +25,13 @@ function]= Mynavbar(){
     navbar.ClassList.remove("sticky");
   }
 }
+
+
+$(document).ready(function(){
+  $('.method').on('click', function(){
+    $('.method').removeClass('blue-border');
+    $(this).addClass('blue-border');
+  });
+
+
+})

@@ -62,7 +62,7 @@ LogInImg{
 
 /*------------------------------------------------------------------------------*/
 
-/*CSS FOR STICKY NAV BAR */
+/*CSS FOR STICKY NAV BAR ON CHECKOUT AREA HTML */
 
 #navbar{
 	overflow: hidden;
@@ -101,13 +101,15 @@ LogInImg{
 }
 
 /*---------------------------------------------------------------------------*/
+
 /*CSS CODE FOR CHECKOUT HMTL */
 
 *{
 	box-sizing: border-box;
 }
 
-html,body{
+html,
+body{
 	font-family: 'Montserrat' , sans-serif;
 	display: flex;
 	width: 100%;
@@ -157,7 +159,7 @@ html,body{
 	background-color: #fefefe;
 }
 
-.Step::after{
+.Step:after{
 	position: absolute;
 	z-index: 1;
 	top: 5px;
@@ -277,8 +279,8 @@ div[class*='column']{
 	width: 382px;
 }
 
-input [type="text"],
-input[type="password"]{
+input [type="Checkout_text"],
+input[type="Checkout_password"]{
 	font-size: 16px;
 	width: 100%;
 	height: 50px;
@@ -290,16 +292,16 @@ input[type="password"]{
 	outline: none;
 }
 
-input [type="text"]:focus,
-input[type="password"]:focus{
+input [type="Checkout_text"]:focus,
+input[type="Checkout_password"]:focus{
 	border-color: rgb(119, 219, 119);
 
 }
 
-#date {background: url(img/black_calender.png) no repeat 95%}
-#Cardholder{background: url(img/person_icon.jpg) no repeat 95%}
-#verification{background: url(img/lock_icon.jpg) no repeat 95%}
-#cardnumber{background: url(img/card_icon.jpg) no repeat 95%}
+#date {background: url(img/black_calender.jpg) no repeat 95%;}
+#Cardholder{background: url(img/person_icon.png) no repeat 95%;}
+#verification{background: url(img/lock_icon.png) no repeat 95%;}
+#cardnumber{background: url(img/card_icon.png) no repeat 95%;}
 
 .Validation{
 	display: flex;

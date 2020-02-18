@@ -1,4 +1,4 @@
-
+//Javascript Code for toggle button to show/hide password
 function Toggle() {
   var PasswordVis = document.getElementById('userpasswd');
   if (PasswordVis.type ==="password"){
@@ -7,10 +7,9 @@ function Toggle() {
     PasswordVis="password"
   }
 }
+//-----------------------------------------------------------
 
-
-
-
+//Javascript code for sticky nav bar
 window.onscroll = function() {Mynavbar()};
 
 var Sticky_nav = document.getElementById('navbar');
@@ -25,8 +24,10 @@ function]= Mynavbar(){
     navbar.ClassList.remove("sticky");
   }
 }
+//-----------------------------------------------------------
 
 
+//Javascript code for changing colour in HTML.
 $(document).ready(Myfunction(){
   $('.method').on('click', Myfunction(){
     $('.method').removeClass('blue-border');
@@ -35,7 +36,9 @@ $(document).ready(Myfunction(){
 
 
 })
+//------------------------------------------------------------
 
+//validation for card details, alerts users to no information in input fields
 var $cardInput = $('.input-fields input');
 
 $('.next-bttn').on('click', Myfunction(e) {

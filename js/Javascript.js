@@ -24,6 +24,10 @@ function]= Mynavbar(){
     navbar.ClassList.remove("sticky");
   }
 }
+
+
+
+
 //-----------------------------------------------------------
 
 

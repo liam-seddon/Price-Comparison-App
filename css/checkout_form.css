@@ -224,7 +224,7 @@ input[type="Checkout_password"]:focus{
 	width: 163px;
 	height:48px;
 	cursor: pointer;
-	transition: all .2s ease-in-out;
+	transition: all.2s ease-in-out;
 	letter-spacing: 1px;
 	border:none;
 	border-radius: 23px;
@@ -237,7 +237,7 @@ input[type="Checkout_password"]:focus{
 
 .next-btn{
 	color: #fff;
-	background: #f62f5e
+	background: #f62f5e;
 }
 
 .btn:focus{

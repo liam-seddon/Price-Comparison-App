@@ -42,7 +42,7 @@ body{
 	justify-content: space-between;
 }
 
-.Step{
+.step{
 	box-sizing: border-box;
 	position: relative;
 	z-index: 1;
@@ -55,7 +55,7 @@ body{
 	background-color: #fefefe;
 }
 
-.Step:after{
+.step:after{
 	position: absolute;
 	z-index: 1;
 	top: 5px;
@@ -66,52 +66,52 @@ body{
 	background-color: #efefef;
 }
 
-.Step:before{
+.step:before{
 	color: #2e2e2e;
 	position: absolute;
 	top: 40px;
 }
 
-.Step:last-child:after{
+.step:last-child:after{
 	content: none;
 }
 
-.Step.Active{
+.step.active{
 	background-color: #f62f53;
 }
 
-.Step.Active:after{
+.step.active:after{
 	background-color: #f62f53;
 }
 
-.Step.Active:before{
+.step.active:before{
 	color: #f62f53;
 }
 
-.Step.Active + .Step{
+.step.active + .Step{
 	background-color: #f62f53;
 }
 
-.Step.Active + .Step:before{
+.step.active + .step:before{
 	color: #f62f53;
 }
 
-.Step:nth-child(1):before{
+.step:nth-child(1):before{
 	right: -40px;
 	content: 'Delivery';
 }
 
-.Step:nth-child(2):before{
+.step:nth-child(2):before{
 	right: 0;
 	content: 'Confirmation' ;
 }
 
-.Step:nth-child(3):before{
+.step:nth-child(3):before{
 		right: -40px;
 		content: 'Payment';
 	}
 
-.Step:nth-child(4):before{
+.step:nth-child(4):before{
 		right: 0;
 		content: 'Finish' ;
 }
@@ -156,7 +156,7 @@ input[type='radio']{
 	justify-content: space-between;
 }
 
-.input-fields label{
+input-fields label{
 	display: block;
 	margin-bottom: 10px;
 	color: #b4b4b4;
@@ -254,4 +254,20 @@ input[type="Checkout_password"]:focus{
 
 .warning{
 	border-color: #f62f5e;
+}
+
+/*CSS for basket */
+
+
+.Basket{
+	-ms-flex: 25%;
+	flex:25%;
+	padding: 0 16px;
+}
+
+.Basket_container{
+	background-color: #f2f2f2;
+	padding: 5px 20px 15px 20px;
+	border: 1px solid lightgrey;
+	border-radius: 3px;
 }

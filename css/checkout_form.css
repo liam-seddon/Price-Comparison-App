@@ -4,8 +4,7 @@
 	box-sizing: border-box;
 }
 
-html,
-body{
+html, body{
 	font-family: 'Montserrat' , sans-serif;
 	display: flex;
 	width: 100%;
@@ -55,7 +54,7 @@ body{
 	background-color: #fefefe;
 }
 
-.step:after{
+.step::after{
 	position: absolute;
 	z-index: 1;
 	top: 5px;
@@ -66,13 +65,13 @@ body{
 	background-color: #efefef;
 }
 
-.step:before{
+.step::before{
 	color: #2e2e2e;
 	position: absolute;
 	top: 40px;
 }
 
-.step:last-child:after{
+.step:last-child::after{
 	content: none;
 }
 
@@ -80,38 +79,38 @@ body{
 	background-color: #f62f53;
 }
 
-.step.active:after{
+.step.active::after{
 	background-color: #f62f53;
 }
 
-.step.active:before{
+.step.active::before{
 	color: #f62f53;
 }
 
-.step.active + .Step{
+.step.active + .step{
 	background-color: #f62f53;
 }
 
-.step.active + .step:before{
+.step.active + .step::before{
 	color: #f62f53;
 }
 
-.step:nth-child(1):before{
+.step:nth-child(1)::before{
 	right: -40px;
 	content: 'Delivery';
 }
 
-.step:nth-child(2):before{
+.step:nth-child(2)::before{
 	right: 0;
 	content: 'Confirmation' ;
 }
 
-.step:nth-child(3):before{
+.step:nth-child(3)::before{
 		right: -40px;
 		content: 'Payment';
 	}
 
-.step:nth-child(4):before{
+.step:nth-child(4)::before{
 		right: 0;
 		content: 'Finish' ;
 }
@@ -199,13 +198,13 @@ input[type="Checkout_password"]:focus{
 #verification{background: url(img/lock_icon.png) no repeat 95%;}
 #cardnumber{background: url(img/card_icon.png) no repeat 95%;}
 
-.Validation{
+.Vvalidation{
 	display: flex;
 	margin-top:  20px;
 	justify-content: space-between;
 }
 
-.Validation div{
+.validation div{
 	width: 182px;
 }
 
@@ -255,6 +254,7 @@ input[type="Checkout_password"]:focus{
 .warning{
 	border-color: #f62f5e;
 }
+
 
 /*CSS for basket */
 

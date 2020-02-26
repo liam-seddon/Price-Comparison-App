@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
-
-<head>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="css/mystyle.css"/>
 <title> Register </title>
 </head>
@@ -10,19 +10,20 @@
 
 
 <form action="Register_Action.php" method ="post">
-<div id="RegisterHead">
+<div class="RegisterHead">
 	<h1><u> Register </u> </h1>
 </div>
 
 <div id="RegisterCon">
 
-    <label for "FullName"><b>Full Name:</b></label>
+    <label for="FullName"><b>Full Name:</b></label>
     <input type="text" placeholder="Enter Full Name Here" name="Fullname" required>
 
     <br></br>
 
-    <label for "DOB"><b>Date Of Birth:</b></label>
-    <select name "day" name="dob" required>
+    <label for="DOB"><b>Date Of Birth:</b></label>
+
+		<select name="day" name="dob" required>
 			<option value="1">1</option>
 			<option value="2">2</option>
 			<option value="3">3</option>
@@ -55,6 +56,7 @@
 			<option value="30">30</option>
 			<option value="31">31</option>
 		</select>
+
 		<select name ="month" name="dob" required>
 			<option value="1">1</option>
 			<option value="2">2</option>
@@ -69,6 +71,7 @@
 			<option value="11">11</option>
 			<option value="12">12</option>
 		</select>
+
 		<select name ="year" name="dob" required>
 			<option value="1950">1950</option>
 			<option value="1951">1951</option>
@@ -124,13 +127,13 @@
 
     <br></br>
 
-    <label for "E-mail"><b>E-mail:</b></label>
+    <label for= "E-mail"><b>E-mail:</b></label>
 		<input type="text" placeholder="Enter E-mail" name="UserName" required>
 
 		<br>
 		</br>
 
-		<label for "Passwrd"><b>Password:</b></label>
+		<label for ="Passwrd"><b>Password:</b></label>
 		<input type="text" placeholder="Enter Password" name="Passwrd" id="userpasswd" required>
 		<input type="Checkbox" onclick="ShowPassword()">Show Password
 
@@ -138,7 +141,7 @@
 		<br>
 		</br>
 
-    <label for "RePasswrd"><b>Confirm Password:</b></label>
+    <label for= "RePasswrd"><b>Confirm Password:</b></label>
     <input type="password" placeholder="ReEnter Password" name="RePasswrd" id="userpasswrd" required>
 		<input type="Checkbox" onclick="ShowPassword()">Show Password
 

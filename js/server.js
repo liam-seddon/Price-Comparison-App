@@ -1,19 +1,12 @@
-//settign variable to HHTP
-var http = require("http");
-var fs =require("fs");
-//When using heroku it uses the availble online port and also the option of using the local port
+var express = require('express');
+var app = express();
 const PORT = process.env.PORT || 8080;
-
-http.createServer (function (request, response){
-  //Sends a http header
-  //Returns HTTP status as 200 which is okay
-
-  //writing to our server
-  resposne.wrtieHead(200,{
-    'Content-Type': 'text/html',
-    'Access-Control-Allow-Origin' : '*'
-  });
-  var readStream = fs.readStream(__dirname + 'Index.html');
-  //Send a Message
-  readStream.pipe(response);
-}).listen(PORT);
+// set the port based on environment (more on environments later)
+var port = PORT;
+// send our index.html file to the user for the home page
+app.get('/', function(req, res) {
+ res.sendFile(__dirname + '/Index.html');
+});
+// start the server
+app.listen(PORT);
+console.log('Express Server running at http://127.0.0.1:'.PORT);

@@ -3,6 +3,9 @@
   "description": "a price comparison app",
   "version": "1.0.0",
   "main": "js/server.js",
+  "scripts": {
+    "start":"node server.js"
+  },
   "engines": {
     "node": "12.13.0"
   },

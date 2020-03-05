@@ -4,7 +4,7 @@
   "description": "A price Comparison App",
   "main": "server.js",
   "scripts": {
-    "test": "echo \ "Is This Working? \" && exit 1"
+    "test": "echo \"Is This Working?\" && exit 1"
   },
   "respository": {
     "type": "git",

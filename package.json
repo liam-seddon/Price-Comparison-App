@@ -1,15 +1,15 @@
 {
-  "name": "Price-Comparison-App",
-  "description": "a price comparison app",
+  "name": "Price Comparison App",
   "version": "1.0.0",
+  "description": "A price Comparison App",
   "main": "server.js",
-  "engines": {
-    "node": "12.13.0"
+  "scripts": {
+    "test": "echo \ "Is This Working? \" && exit 1"
   },
-
-  "author": "Liam Seddon"
-
-  "dependencies": {
-    "express": "~4.13.4"
+  "respository": {
+    "type": "git",
+    "url": "git+https://github.com/liam-seddon/Price-Comparison-App"
   },
+  "author": "Liam Seddon",
+  "homepage": "https://github.com/liam-seddon/Price-Comparison-App"
 }

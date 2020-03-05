@@ -6,9 +6,6 @@
   "scripts": {
     "start":"node server.js"
   },
-  "engines": {
-    "node": "12.13.0",
-  },
   "author": "Liam Seddon",
   "dependencies":{
     "express": "~4.13.4"

@@ -2,7 +2,9 @@
   "name": "Price-Comparison-App",
   "description": "a really cool app",
   "version": "1.0.0",
+  "main": "server.js",
   "engines": {
     "node": "12.13.0"
-  }
+  },
+  "author": "Liam Seddon"
 }

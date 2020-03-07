@@ -1,8 +1,12 @@
 //settign variable to HHTP
 var http = require("http");
 var fs =require("fs");
-//When using heroku it uses the availble online port and also the option of using the local port
-const PORT = process.env.PORT || 8080;
+var express=require("express");
+var body-parser=require("body-parser");
+
+var connection = require("js/config");
+var app  = express();
+
 
 http.createServer (function (request, response){
   //Sends a http header

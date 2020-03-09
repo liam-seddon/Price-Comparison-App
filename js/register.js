@@ -4,7 +4,7 @@ connection.query('INSERT INTO users SET ?', users, function (error,results,field
   if (error) {
     res.json({
       status:false,
-      message: 'There are som error with the query'
+      message: 'There are some errors with the query'
     })
 
   } else {

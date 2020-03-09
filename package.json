@@ -9,7 +9,7 @@
     "mysql": "^2.13.0"
   },
   "scripts": {
-    "test": "echo \"Is This Working\""
+    "start": "node server.js"
   },
   "respository": {
     "type": "git",

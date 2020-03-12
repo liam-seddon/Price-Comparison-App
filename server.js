@@ -1,7 +1,6 @@
 //settign variable to HHTP
 var http = require("http");
 var fs =require("fs");
-var express=require("express");
 var body-parser=require("body-parser");
 
 var connection = require("js/config.js");

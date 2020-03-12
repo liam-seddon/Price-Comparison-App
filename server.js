@@ -4,8 +4,8 @@ var fs =require("fs");
 var express=require("express");
 var body-parser=require("body-parser");
 
-var connection = require("js/config");
-var app  = express();
+var connection = require("/config");
+var Price-Comparison-App  = express();
 
 
 http.createServer (function (request, response){

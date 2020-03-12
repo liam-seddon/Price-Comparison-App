@@ -4,8 +4,8 @@ var fs =require("fs");
 var express=require("express");
 var body-parser=require("body-parser");
 
-var connection = require("/config");
-var Price-Comparison-App  = express();
+var connection = require("js/config.js");
+
 
 
 http.createServer (function (request, response){
@@ -17,7 +17,7 @@ http.createServer (function (request, response){
     'Content-Type': 'text/html',
     'Access-Control-Allow-Origin' : '*'
   });
-  var readStream = fs.readStream(__dirname + 'Index.html');
+  var readStream = fs.readStream(__dirname + '/Index.html');
   //Send a Message
   readStream.pipe(response);
 }).listen(PORT);

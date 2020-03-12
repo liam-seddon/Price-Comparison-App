@@ -2,7 +2,7 @@
   "name": "price-compariso-appls",
   "version": "1.0.0",
   "description": "A price Comparison App",
-  "main": "server.js",
+  "main": "Index.html",
   "dependencies":{
     "body-parser": "^1.17.1",
     "express": "^4.14.1",

@@ -55,7 +55,7 @@ html, body{
 }
 
 .step::after{
-	position: absolute;
+	position: relative;
 	z-index: 1;
 	top: 5px;
 	left: 22px;
@@ -67,7 +67,7 @@ html, body{
 
 .step::before{
 	color: #2e2e2e;
-	position: absolute;
+	position: relative;
 	top: 40px;
 }
 
@@ -102,17 +102,17 @@ html, body{
 
 .step:nth-child(2)::before{
 	right: 0;
-	content: 'Confirmation' ;
+	content: 'Confirmation';
 }
 
 .step:nth-child(3)::before{
-		right: -40px;
+		right: +40px;
 		content: 'Payment';
 	}
 
 .step:nth-child(4)::before{
 		right: 0;
-		content: 'Finish' ;
+		content: 'Finish';
 }
 
 .payment-method{
@@ -155,7 +155,7 @@ input[type='radio']{
 	justify-content: space-between;
 }
 
-input-fields label{
+.input-fields label{
 	display: block;
 	margin-bottom: 10px;
 	color: #b4b4b4;
@@ -170,7 +170,11 @@ input-fields label{
 	color: #2e2e2e;
 }
 
-div[class*='column']{
+div[class*='column1']{
+	width: 382px;
+}
+
+div[class*='column2']{
 	width: 382px;
 }
 
@@ -187,8 +191,8 @@ input[type="password"]{
 	outline: none;
 }
 
-input [type="Checkout_text"]:focus,
-input[type="Checkout_password"]:focus{
+input [type="text"]:focus,
+input[type="password"]:focus{
 	border-color: rgb(119, 219, 119);
 
 }
@@ -198,7 +202,7 @@ input[type="Checkout_password"]:focus{
 #verification{background: url(img/lock_icon.png) no repeat 95%;}
 #cardnumber{background: url(img/card_icon.png) no repeat 95%;}
 
-.Vvalidation{
+.validation{
 	display: flex;
 	margin-top:  20px;
 	justify-content: space-between;

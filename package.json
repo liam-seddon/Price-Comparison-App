@@ -2,7 +2,7 @@
   "name": "price-comparison-app",
   "version": "1.0.0",
   "description": "A Price Comparison App",
-  "main": "index.html",
+  "main": "Index.html",
   "scripts": {
     "test": "Hi Is this working"
   },

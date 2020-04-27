@@ -1,0 +1,24 @@
+{
+  "name": "price-comparison-app",
+  "version": "1.0.0",
+  "description": "Honours Project App for comparing prices from different stores. This Is Only For UI Implementation, Testing And HTML Validation.",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.12.3",
+    "server": "^1.0.27"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "Hi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liam-seddon/Price-Comparison-App.git"
+  },
+  "author": "Liam Seddon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liam-seddon/Price-Comparison-App/issues"
+  },
+  "homepage": "https://github.com/liam-seddon/Price-Comparison-App#readme"
+}

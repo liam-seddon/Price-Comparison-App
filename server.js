@@ -1,22 +1,20 @@
-//settign variable to HHTP
-var http = require("http");
-var fs =require("fs");
-var body-parser=require("body-parser");
+var PORT = process.env.PORT || 5000;
+var express = require('express');
+var app = express();
 
-var connection = require("js/config.js");
+var http = require('http');
+var server = http.Server(app);
 
+app.use(express.static('client'));
 
+server.listen(PORT, function() {
+  console.log('Price Comparison App running');
+});
 
-http.createServer (function (request, response){
-  //Sends a http header
-  //Returns HTTP status as 200 which is okay
+var io = require('socket.io')(server);
 
-  //writing to our server
-  resposne.wrtieHead(200,{
-    'Content-Type': 'text/html',
-    'Access-Control-Allow-Origin' : '*'
+io.on('connection', function(socket) {
+  socket.on('message', function(msg) {
+    io.emit('message', msg);
   });
-  var readStream = fs.readStream(__dirname + '/Index.html');
-  //Send a Message
-  readStream.pipe(response);
-}).listen(PORT);
+});

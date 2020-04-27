@@ -4,19 +4,19 @@
   "description": "A Price Comparison App",
   "main": "Index.html",
   "scripts": {
-    "test": "Hi Is this working"
+    "start": "node Index.html"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/liam-seddon/Price-Comparison-App.git"
-  },
-  "scripts":{
-    "start": "node Index.html"
   },
   "author": "Liam Seddon",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/liam-seddon/Price-Comparison-App/issues"
   },
-  "homepage": "https://github.com/liam-seddon/Price-Comparison-App#readme"
+  "homepage": "https://github.com/liam-seddon/Price-Comparison-App#readme",
+  "dependencies": {
+    "server": "^1.0.27"
+  }
 }

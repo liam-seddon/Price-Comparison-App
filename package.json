@@ -10,12 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/liam-seddon/Price-Comparison-App.git"
   },
-<<<<<<< HEAD
-=======
   "scripts":{
-    "start": 
+    "start":
   },
->>>>>>> f6a87ff406f6e54e03e70cea21136d7391f3582a
   "author": "Liam Seddon",
   "license": "ISC",
   "bugs": {

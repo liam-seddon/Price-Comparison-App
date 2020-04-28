@@ -6,7 +6,7 @@ app.set('port', (process.env.PORT || 5000));
 app.use(express.static(__dirname + 'Index.html'));
 
 app.get ('/', function(request, response){
-  response.render ('Index');
+  response.render ('Index.html');
 });
 
 app.listen(app.get('port'), function(){

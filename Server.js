@@ -9,7 +9,7 @@ app.set('/', __dirname + "/");
 app.set('view engine', 'ejs');
 
 app.get ('/', function(request, response){
-  response.render ('Index');
+  response.render ('//Index');
 });
 
 app.listen(app.get('port'), function(){

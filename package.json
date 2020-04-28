@@ -2,7 +2,7 @@
   "name": "price-comparison-app",
   "version": "1.0.0",
   "description": "Honours Project App for comparing prices from different stores. This Is Only For UI Implementation, Testing And HTML Validation.",
-  "main": "index.js",
+  "main": "Server.js",
   "dependencies": {
     "http-server": "^0.12.3",
     "server": "^1.0.27",

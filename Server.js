@@ -3,10 +3,10 @@ var app = express();
 
 app.set('port', (process.env.PORT || 5000));
 
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + 'Index.html'));
 
 app.get ('/', function(request, response){
-  response.render ('Index.html');
+  response.render ('Index');
 });
 
 app.listen(app.get('port'), function(){

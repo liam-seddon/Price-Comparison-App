@@ -60,9 +60,9 @@ app.listen(app.get('port'), function(){
   console.log('Price Comparison App is running', app.get('port') )
 });
 app.get('/', routes.index); //Call My Index Page
-app.get('/', routes.login); //Call My Login PAGE
-app.get('/', routes.Register); //Call My register PAGE
-app.get('/', routes.Shopping_Area); //Call My shopping area PAGE
+app.get('/login', routes.login); //Call My Login PAGE
+app.post('/login', user.login); // calling login page post
+app.get('/Register', routes.Register); //Call My register PAGE
+app.post('/Register', user.Register); //Calling register page pst
 
-app,post('/login', user.login); //Calling login POST
-app.post('/Register', user.Register); //Calling Register POST
+app.get('/Shopping_Area', user.Shopping_Area); //Call My shopping area PAGE

@@ -3,6 +3,6 @@ exports.index = function (req, res){
   if (req.method == "POST"){
     //post the data
   } else {
-    res.render('index');
+    res.render('Register');
   }
 };

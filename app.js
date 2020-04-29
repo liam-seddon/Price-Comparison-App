@@ -34,6 +34,7 @@ app.listen(app.get('port'), function(){
 
 app.get('/', routes.index); //Call My Index PAGE
 app.get('/', routes.Register); //Call My register PAGE
+app.get('/', user.Shopping_Area); //Call My shopping area PAGE
 
 app,post('/index', user.login); //Calling login POST
 app.post('/Register', user.Register); //Calling Register POST

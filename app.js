@@ -1,8 +1,32 @@
+//Creating Session Management
+var session = require('express-session');
+app.use(session({
+  secret: '',
+  resave: false,
+  saveUninitialized: true,
+  cookie: { maxAge: 60000 }
+}))
+
+//Storing Session VALUES
+var sess = req.session;  //initialize session variable
+req.session.userId = results[0].id; //set user id
+req.session.user = results[0];//set user name
+
+//Getting Session Value
+var userId = req.session.userId;
+
+//Destroying Session VALUES
+req.session.destroy(function(err) {
+   })
+
+//Setting vars
 var mysql = require('mysql');
 var express = require('express');
-var session = require('express-session');
-var bodyParser = require('body-parser');
 var path = require('path');
+var routes = require('./routes');
+var user = require('./routes/user');
+var http = require('http');
+
 
 //Creating Database Connection
 var connection = mysql.createConnection({

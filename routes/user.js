@@ -28,12 +28,12 @@ exports.login = function(req, res){
          }
          else{
             message = 'Wrong Credentials.';
-            res.render('index.ejs',{message: message});
+            res.render('login.ejs',{message: message});
          }
 
       });
    } else {
-      res.render('index.ejs',{message: message});
+      res.render('login.ejs',{message: message});
    }
 };
 
@@ -54,11 +54,11 @@ exports.signup = function(req, res){
       var query = db.query(sql, function(err, result) {
 
          message = "Succesfully! Your account has been created.";
-         res.render('signup.ejs',{message: message});
+         res.render('Register.ejs',{message: message});
       });
 
    } else {
-      res.render('signup');
+      res.render('Register');
    }
 };
 
@@ -69,7 +69,7 @@ exports.Shopping_Area = function(req, res, next){
 	userId = req.session.userId;
 
 	if(userId == null){
-		res.redirect("/home/index");
+		res.redirect("/home/login");
 		return;
 	}
 

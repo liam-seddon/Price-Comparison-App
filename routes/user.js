@@ -24,7 +24,7 @@ exports.login = function(req, res){
             req.session.userId = results[0].id;
             req.session.user = results[0];
             console.log(results[0].id);
-            res.redirect('/home/dashboard');
+            res.redirect('/views/Shopping_Area');
          }
          else{
             message = 'Wrong Credentials.';

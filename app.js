@@ -4,6 +4,7 @@ var session = require('express-session');
 var bodyParser = require('body-parser');
 var path = require('path');
 
+//Creating Database Connection
 var connection = mysql.createConnection({
   host : 'localhost',
   user : 'root',
@@ -15,7 +16,7 @@ connection.connect();
 
 global.db =connect();
 
-//Setting Up Enviroments
+//Setting Up Enviroments / Server
 app.set('port', (process.env.PORT || 8080));
 
 app.use(express.static(__dirname + '/'));
@@ -32,4 +33,4 @@ app.listen(app.get('port'), function(){
 });
 
 app.get('/', routes.index); //Call My Index PAGE
-app.get('/', routes.Register); //Call My Index PAGE
+app.get('/', routes.Register); //Call My register PAGE

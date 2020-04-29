@@ -1,3 +1,4 @@
+//Get Homepage
 exports.index = function (req, res){
   message='';
   if (req.method == "POST"){

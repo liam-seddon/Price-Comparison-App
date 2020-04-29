@@ -15,7 +15,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "Hi"
+    "test": "Connected"
   },
   "repository": {
     "type": "git",

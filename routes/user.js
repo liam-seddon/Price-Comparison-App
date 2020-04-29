@@ -1,15 +1,15 @@
 //Get Homepage
-exports.index = function (req, res){
+exports.index = function (request, response){
   message='';
   if (req.method == "POST"){
     //post the data
   } else {
-    res.render('Register');
+    res.render('login');
   }
 };
 
 //Login method
-exports.login = function(req, res){
+exports.login = function(request, response){
    var message = '';
    var sess = req.session;
 
@@ -39,7 +39,7 @@ exports.login = function(req, res){
 
 
 //Register Method
-exports.signup = function(req, res){
+exports.signup = function(request, response){
    message = '';
    if(req.method == "POST"){
       var post  = req.body;
@@ -63,7 +63,7 @@ exports.signup = function(req, res){
 };
 
 //Calling Shopping Area method
-exports.Shopping_Area = function(req, res, next){
+exports.Shopping_Area = function(request, response, next){
 
 	var user =  req.session.user,
 	userId = req.session.userId;

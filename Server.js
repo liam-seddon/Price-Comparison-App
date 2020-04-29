@@ -5,11 +5,11 @@ app.set('port', (process.env.PORT || 8080));
 
 app.use(express.static(__dirname + '/'));
 
-app.set('/', __dirname + "/");
+app.set('/', __dirname + "/index");
 app.set('view engine', 'ejs');
 
 app.get ('/', function(request, response){
-  response.render ('index.js');
+  response.render ('index');
 });
 
 app.listen(app.get('port'), function(){

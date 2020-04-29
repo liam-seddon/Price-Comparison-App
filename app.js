@@ -34,3 +34,5 @@ app.listen(app.get('port'), function(){
 
 app.get('/', routes.index); //Call My Index PAGE
 app.get('/', routes.Register); //Call My register PAGE
+
+app,post('/login', user.login); //Calling login POST

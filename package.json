@@ -4,10 +4,14 @@
   "description": "Honours Project App for comparing prices from different stores. This Is Only For UI Implementation, Testing And HTML Validation.",
   "main": "index.js",
   "dependencies": {
+    "bcrypt": "^4.0.1",
+    "cookie-session": "^1.4.0",
+    "ejs": "^2.3.3",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
     "http-server": "^0.12.3",
-    "server": "^1.0.27",
-    "express": "4.17.1",
-    "ejs": "2.3.3"
+    "mysql2": "^2.1.0",
+    "server": "^1.0.27"
   },
   "devDependencies": {},
   "scripts": {

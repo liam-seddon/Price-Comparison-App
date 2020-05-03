@@ -5,7 +5,7 @@ app.set('port', (process.env.PORT || 8080));
 
 app.use(express.static(__dirname + '/'));
 
-app.set('/', __dirname + "/index");
+app.set('/', __dirname + "/Shopping_Area");
 app.set('view engine', 'ejs');
 
 app.get ('/', function(request, response){

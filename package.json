@@ -13,7 +13,9 @@
     "mysql2": "^2.1.0",
     "server": "^1.0.27"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    
+  },
   "scripts": {
     "test": "Connected"
   },

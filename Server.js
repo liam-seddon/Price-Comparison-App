@@ -9,7 +9,7 @@ app.set('/', __dirname + "/Shopping_Area");
 app.set('view engine', 'ejs');
 
 app.get ('/', function(request, response){
-  response.render ('index');
+  response.render ('Shopping_Area');
 });
 
 app.listen(app.get('port'), function(){

@@ -53,7 +53,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 app.get ('/', function(request, response){
-  response.render ('index');
+  response.render ('Shopping_Area');
 });
 
 app.listen(app.get('port'), function(){

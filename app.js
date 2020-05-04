@@ -30,7 +30,7 @@ var http = require('http');
 
 //Setting Up Enviroments / Server
 app.set('port', (process.env.PORT || 8080));
-app.set('views',__dirname +'/views');
+app.set('views',__dirname +'/public');
 app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({extended:false}));

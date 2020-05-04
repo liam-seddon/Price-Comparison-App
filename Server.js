@@ -5,11 +5,11 @@ app.set('port', (process.env.PORT || 8080));
 
 app.use(express.static(__dirname + '/'));
 
-app.set('/', __dirname + "/Shopping_Area");
+app.set('/', __dirname + "views/Shopping_Area");
 app.set('view engine', 'ejs');
 
 app.get ('/', function(request, response){
-  response.render ('Shopping_Area');
+  response.render ('views/Shopping_Area');
 });
 
 app.listen(app.get('port'), function(){

@@ -1,20 +1,17 @@
-//Setting vars
-var mysql = require('mysql');
-var express = require('express');
-var path = require('path');
-var routes = require('./routes');
-var user = require('./routes/user');
-var http = require('http');
-
+const mysql = require('mysql');
+const dbCongfig = require("../config/db.confug.js");
 
 //Creating Database Connection
-var connection = mysql.createConnection({
-  host : 'localhost',
-  user : 'root',
-  password: '',
-  database : 'users'
+const connection = mysql.createConnection({
+  host : db.config.HOST,
+  user : db.config.USER,
+  host : db.config.PASSWORD,
+  user : db.config.DB,
 });
 
-connection.connect();
+connection.Connect = mysql.createConnection({
+  if (error) throw error;
+  console.log("Succesfully COnnected To The Database")
+});
 
-global.db =connect();
+module.exports = conenction;

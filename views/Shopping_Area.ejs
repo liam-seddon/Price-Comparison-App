@@ -16,13 +16,18 @@
   <table>
 
     <%
-    if product_data_fruits
+    if (product_data_fruits.length!=0){
+      var i = 1
+      product_data_fruits.forEach(function(data){
+        %>
+
+
 
 
 
 
     <tr>
-        <td></td><td></td><td></td>
+        <td><%=i; %></td><td><%=data.product_name%><%=data.Best Price%><%=data.Supplier%></td><td></td><td></td>
       </tr>
       <tr>
         <td></td><td></td><td></td>

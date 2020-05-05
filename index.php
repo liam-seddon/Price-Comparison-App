@@ -1,1 +1,1 @@
-<?php include_once("Shopping_Area.html"); ?>
+<?php include_once("index.html"); ?>

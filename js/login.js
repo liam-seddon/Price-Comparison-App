@@ -4,9 +4,8 @@ function check(){
 
   var UserName_Log = document.getElementById('UserName');
   var Passwd_Log = document.getElementById('userpasswd');
-  var userRemember = document.getElementById('remember');
 
-  if (UserName.value == storedName && passwd.value == Userstoredpasswd){
+  if (UserName_Log.value == storedName && passwd.value == Userstoredpasswd){
     alert ("You Are Now Logged In!");
   }else{
     alert("Due to An Error, You Havent Been Logged In");

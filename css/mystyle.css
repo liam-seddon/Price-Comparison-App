@@ -59,7 +59,7 @@ LogInImg{
 /* -------------------------------------------------------------------------------- */
 /* CSS FOR SHOPPING AREA PAGE */
 
-.TableFruit{
+TableFruit td{
 	text-align: center;
 	vertical-align: middle;
 }

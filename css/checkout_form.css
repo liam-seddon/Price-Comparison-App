@@ -258,20 +258,3 @@ input[type="password"]:focus{
 .warning{
 	border-color: #f62f5e;
 }
-
-
-/*CSS for basket */
-
-
-.Basket{
-	-ms-flex: 25%;
-	flex:25%;
-	padding: 0 16px;
-}
-
-.Basket_container{
-	background-color: #f2f2f2;
-	padding: 5px 20px 15px 20px;
-	border: 1px solid lightgrey;
-	border-radius: 3px;
-}
